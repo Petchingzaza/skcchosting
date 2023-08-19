@@ -70,5 +70,5 @@ async def on_ready():
     print("bot online")
 
 
-bot.run("MTEzOTk3MDQ1ODg1NTQxOTk0NA.GVtwM9.WuN08KejqYilrUOKPq9jyckIGKU7M6HJRiF13A")
+bot.run("MTEzOTk3MDQ1ODg1NTQxOTk0NA.G3FCyW.ISenrpeABZ8YR-eqPfuGFvUwWY1YdImFwImP6w")
 
