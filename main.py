@@ -1,6 +1,6 @@
 import discord
 from finder import search
-
+import os
 import discord.ext
 from discord.utils import get
 from discord.ext import commands, tasks
@@ -70,5 +70,5 @@ async def on_ready():
     print("bot online")
 
 
-bot.run("MTEzOTk3MDQ1ODg1NTQxOTk0NA.G3FCyW.ISenrpeABZ8YR-eqPfuGFvUwWY1YdImFwImP6w")
+bot.run(os.getenv("SKCC"))
 
